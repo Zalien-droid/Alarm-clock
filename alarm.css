@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(
+        black,
+        rgb(8, 8, 58)
+    );
+    overflow-x: hidden;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.clocksect{
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 40vw;
+    height: 40vh;
+    background-image: linear-gradient(
+        rgb(14, 66, 66),
+        rgb(12, 12, 41)
+    );
+}
+.clockdiv{
+    text-align: center;
+}
+.clock{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: white;
+    font-weight: 600;
+}
+.hours select{
+    height: 40px;
+    font-size: 20px;
+}
+.HrsMin{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+#day{
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+}
+.sect2{
+    opacity: 0;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+.subsect2{
+    display: flex;
+    width: fit-content;
+}
+.sect2div{
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+}
+.sect2p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    color: white;
+}
+.sect3{
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    width: fit-content;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50vh;
+    left: 210vh;
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.sect3p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+}
